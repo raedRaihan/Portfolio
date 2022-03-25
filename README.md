@@ -25,8 +25,10 @@ Students will create their own portfolio page/site and prepare a presentation in
 - [ ] Hire-able status displayed, pulled from Github via Github's API
 
 
-## Wireframes
+## Wireframe
 
+
+## Examples
 ![portfolio](https://user-images.githubusercontent.com/12191780/160157466-4ae000e1-b2a3-49b6-bdad-5159482af4dd.png)
 
 
