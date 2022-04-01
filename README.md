@@ -31,7 +31,11 @@ Students will create their own portfolio page/site and prepare a presentation in
 ## Examples
 Below is a multi-page portfolio with both desktop and mobile views.
 
-![portfolio](https://user-images.githubusercontent.com/12191780/160157466-4ae000e1-b2a3-49b6-bdad-5159482af4dd.png)
+![multi-page](https://user-images.githubusercontent.com/12191780/161307224-b29bf3e0-e2a6-41c6-bda3-fb90398929f8.png)
+![home-page](https://user-images.githubusercontent.com/12191780/161307236-e749eb6d-83af-4ea7-a680-8f49ff5395b9.png)
+![work-page](https://user-images.githubusercontent.com/12191780/161307244-8285e756-3ead-4653-9579-5ea59800093d.png)
+![contact-page](https://user-images.githubusercontent.com/12191780/161307252-3646cbb3-5a8e-4d3b-89eb-4ca840786cba.png)
+
 
 Below is a single scrolling portfolio page with anchors in the navbar leading to different sections on the same page. Click on the image to explore the portfolio's wireframe in Figma.
 
