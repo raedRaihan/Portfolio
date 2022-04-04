@@ -53,6 +53,13 @@ Below is a single scrolling portfolio page with anchors in the navbar leading to
 </a>
 
 
+Below is a wireframe (also known as a page schematic or screen blueprint) with sidebar navigation and a more grid layout for representing the user flow. Click on the "play" button at the top right within the Figma in order to explore the flow of the site.
+
+![wireframe-image](https://i.imgur.com/n3NukvH.png)
+
+
+https://www.figma.com/file/VvzrwlF8oLbjqKXLh0w9Tj/Wireframes-for-Portfolios?node-id=0%3A1https://www.figma.com/file/VvzrwlF8oLbjqKXLh0w9Tj/Wireframes-for-Portfolios?node-id=0%3A1
+
 ## The example object will be returned from Github's API
 ###  https://api.github.com/users/chris-purnell 
 ---
