@@ -17,12 +17,11 @@ Students will create their own portfolio page/site and prepare a presentation in
 - [ ] Routing either between pages || single scrolling page (using anchors or a some type of navigation)
 - [ ] Working links to Github projects or deployed projects
 - [ ] About section. (Summary can be taken from your story mining).
-- [ ] At least (1) animation existing anywhere on the site (e.g.- sliders, button effects, loading spinner, etc...)
+- [ ] At least (1) CSS animation existing anywhere on the site
 - [ ] Github API specific data - Object structure below
 - [ ] ----------------------------
 - [ ] Profile picture present, pulled from Github via Github's API
 - [ ] Bio underneath profile picture, pulled from Github via Github's API
-- [ ] Hire-able status displayed, pulled from Github via Github's API
 
 
 ## Wireframe
@@ -118,9 +117,7 @@ https://www.figma.com/file/VvzrwlF8oLbjqKXLh0w9Tj/Wireframes-for-Portfolios?node
 ```json
 {
     "avatar_url": "https://avatars.githubusercontent.com/u/74918205?v=4",
-    "is_hireable": null,
     "bio": "A wizard coder who casts powerful spells... but also wrong spells.",
 }
 ```
-*iF **is_hireable** is null like the example above, conditionally check this and add your own value such as "Hireable".*
 
