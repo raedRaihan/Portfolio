@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="https://www.allaboutfasttrack.com/">
+                    <img src="images/fasttrackLogo.png" class="logo" alt="FastTrack Logo">
+                </a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/works.html">Works</a></li>
+                    <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="contact">
+                <form  id="contactForm" onsubmit="sendEmail(event)">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" name="fullName" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                    <br>
+                    <label for="message">Message</label>
+                    <textarea name="message" required></textarea>
+                    <br><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+          
+           
+
+            <div class="LinkedAccounts">
+                <a href="https://github.com/raedRaihan">
+                    <img src="images/github-logo.png" class="gitLogo">
+                </a>
+
+                <a href="https://www.linkedin.com/in/raed-ali-b57594209/">
+                    <img src="images/linkedinLogo.png" class="LNLogo">
+                </a>
+                
+            </div>
+
+        </div>
+    
+    </div>
+</body>
+</html>

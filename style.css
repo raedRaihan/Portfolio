@@ -1,0 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #080808; 
+    color: #fff; 
+}
+
+
+.container
+{
+    padding: 10px 10%
+}
+
+nav 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px; 
+}
+
+.logo
+{
+   width:250px; 
+}
+nav ul 
+{
+    display: flex;
+    gap: 30px;
+    list-style: none; 
+    margin: 0;
+    padding: 0; 
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+nav ul li
+{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after
+{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: gold;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition:0.5s;
+}
+
+nav ul li a:hover::after
+{
+    width: 50px;
+}
+
+.header-text
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.header-text h1 span
+{
+    color: gold;
+}
+
+.header-text img.profile-pic
+{
+    width: 400px; 
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid gold;
+}
+
+.container2 
+{
+    max-width: 600px; 
+    margin: 0;
+    text-align: left; 
+}
+.container2 p
+{
+    width: 600px; 
+    line-height: 1.6;
+}
+
+
+.download-resume
+{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.download-btn, .contact button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover , .contact button:hover
+{
+    background-color: darkgoldenrod; 
+}
+
+.LinkedAccounts
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px; 
+    gap: 20px; 
+    
+}
+
+.gitLogo
+{
+    width: 75px; 
+    height: 75px;
+    cursor: pointer;
+}
+.LNLogo
+{
+    width: 50px; 
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding: 100px;
+}
+
+.contact label
+{
+    font-size:17px;
+    display:block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea
+{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    outline:none;
+}
+
+.contact textarea
+{
+    width: 500px;
+}
+.ProjectsMainTitle
+{
+    padding: 25px;
+}
+.projects
+{
+    display: flex; /* Enables flexbox for alignment */
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Centers items vertically */
+    align-items: center; /* Centers items horizontally */
+    min-height: 100vh; /* Ensures the section spans the full viewport height */
+    padding: 0; /* Removes extra padding */
+    margin: 0; /* Removes extra margin */
+}
+
+.project-entry
+{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.project-entry nav a
+{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.project-header-info
+{
+    display: flex;
+    gap: 100px; 
+    font-size: 15px;
+    padding: 10px;
+}
+
+.Project-Desc
+{
+    font-size: 20px;
+    width: 450px; 
+}
+
+.project-date 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    background-color: goldenrod;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+
+
