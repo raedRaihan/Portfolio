@@ -16,6 +16,8 @@ body
 .container
 {
     padding: 10px 10%
+    
+    
 }
 
 nav 
@@ -24,7 +26,8 @@ nav
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 0 20px; 
+    padding: 0 20px;
+    margin-bottom: 25px; 
 }
 
 .logo
@@ -72,6 +75,12 @@ nav ul li a::after
 nav ul li a:hover::after
 {
     width: 50px;
+    
+}
+.navBar
+{
+    border-bottom: 3px solid gold;
+    margin-bottom: 25px;
 }
 
 .header-text
@@ -157,6 +166,13 @@ nav ul li a:hover::after
     cursor: pointer;
 }
 
+.FTLogo
+{
+    width: 200px; 
+    height: 200px;
+    cursor: pointer;
+}
+
 
 .contact
 {
@@ -182,6 +198,13 @@ nav ul li a:hover::after
     border-radius: 5px;
     border: none;
     outline:none;
+}
+
+input:focus-within, textarea:focus-within
+{
+    outline:none;
+    border-color:gold;
+    border-width: 3px;
 }
 
 .contact textarea
@@ -229,12 +252,17 @@ nav ul li a:hover::after
     width: 450px; 
 }
 
+.Project-Desc p
+{
+    margin-top: 15px;
+}
+
 .project-date 
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 150px;
     height: 30px;
     background-color: goldenrod;
     color: black;
@@ -242,4 +270,39 @@ nav ul li a:hover::after
     font-weight: bold;
     border-radius: 40px;
     text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.project-date :hover 
+{
+    background-color: darkgoldenrod; 
+}
+
+.story
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.documentField
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.gold-line
+{
+    border: none; /* Remove default border */
+    border-bottom: 3px solid gold; /* Add gold border */
+    margin: 0; /* Adjust spacing */
+    width: 100%; /* Set the width to full viewport width */
+    position: relative; /* Ensure it's positioned properly */
 }
