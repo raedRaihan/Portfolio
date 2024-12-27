@@ -259,7 +259,7 @@ input:focus-within, textarea:focus-within
 
 .project-date 
 {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 150px;
